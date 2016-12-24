@@ -1,0 +1,23 @@
+SET foreign_key_checks = 0;
+DROP TABLE files;
+SET foreign_key_checks = 1;
+
+CREATE TABLE files
+(
+id INT NOT NULL AUTO_INCREMENT,
+date datetime NOT NULL DEFAULT NOW(),
+file_name VARCHAR(200) NOT NULL,
+file_path VARCHAR(200) NOT NULL,
+file_type VARCHAR(200) NOT NULL,
+PRIMARY KEY (id)
+);
+
+
+CREATE TABLE notes
+(
+id INT NOT NULL AUTO_INCREMENT,
+date datetime NOT NULL DEFAULT NOW(),
+message VARCHAR(10000) NOT NULL,
+PRIMARY KEY (id)
+);
+

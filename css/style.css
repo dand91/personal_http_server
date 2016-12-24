@@ -1,0 +1,136 @@
+<style>
+
+body {
+
+font-family:"helvetica";
+
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+
+    color:#b32d00;
+
+}
+
+table {
+
+  width:95%;
+  border-collapse: collapse;
+  border-spacing: 0;
+
+}
+
+tr {
+
+    color:#b32d00;
+    border: 1px solid black;
+
+}
+
+td {
+
+    border: 1px solid black;
+
+}
+
+th, td {
+
+    padding: 10px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+
+    background-color: #ffece6
+
+}
+
+tr:hover {
+
+    background-color: #e63900;
+    color:white;
+
+}
+
+th {
+    border: 1px solid black;
+    background-color:#cc3200;
+    color: white;
+}
+
+input[type=text] {
+    padding:3px;
+    border:1px solid #ccc;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    color:#000000;
+}
+
+input[type=text]:focus {
+    border-color:#333;
+}
+
+input[type=submit] {
+    padding:3px 15px;
+    background:#cc3200;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    color:#ffffff;
+
+}
+
+input[type=submit]:hover{
+    padding:3px 15px;
+    background:#e63900;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    color:#ffffff;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+
+    background-color:#b32d00;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+</style>
